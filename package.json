@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "prebuild": "cd server; npm ci; cd ..",
+    "prebuild": "cd server; npm install; cd ..",
     "lint": "vue-cli-service lint",
     "dev": "nodemon server/index.js",
     "start": "node server/index.js"
