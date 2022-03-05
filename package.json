@@ -5,8 +5,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "prestart": "cd server; npm ci",
     "lint": "vue-cli-service lint",
-    "dev": "nodemon server/index.js"
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
